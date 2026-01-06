@@ -8,8 +8,8 @@
 }
 
 .hero-wrapper {
-    width: 1300px;
-    height: 600px;
+    width: 1600px;
+    height: 837px;
     padding: 110px 0 0 0;
     margin: 0 auto;
     position: relative;
@@ -24,26 +24,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 45%;
+    width: 40%;
     gap: 20px;
 }
 
 .hero-text h2 {
-    font-size: 43px;
+    font-size: 45px;
     font-weight: 500;
     color: var(--gray-color)
 }
 
 .hero-text h1 {
-    font-size: 80px;
+    font-size: 85px;
     font-weight: 700;
-}
-
-.hero-text p {
-    font-size: 18px;
-    font-weight: 500;
-    color: var(--para-color);
-    line-height: 30px;
 }
 
 .floating-text {
@@ -51,11 +44,11 @@
     position: absolute;
     left: -2%;
     height: auto;
-    top: 30px;
+    top: 10%;
 }
 
 .floating-text img {
-    width: 85%;
+    width: 100%;
 }
 
 .hero-images {
