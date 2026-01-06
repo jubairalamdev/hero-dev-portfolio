@@ -4,12 +4,42 @@
   --primary-color: #FD6E0A;
   --secondary-color: #181818;
   --primary-border-radius: 5px;
+  --primary-bg: white;
+  --secondary-bg: #FFF8F3;
+  --gray-color: #474747;
+  --para-color: #757575;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--secondary-color);
 }
 
 .highlighted-btn {
-    background-color: #FD6E0A;
-    color: white!important;
+    background-color: var(--primary-color);
+    color: var(--primary-bg)!important;
     padding: 15px 20px;
     font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    border: 2px solid var(--primary-color);
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.secondary-btn {
+    background-color: transparent;
+    color: var(--primary-color)!important;
+    padding: 15px 20px;
+    font-weight: 600;
+    font-size: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    border: 2px solid var(--primary-color);
+    font-weight: 500;
     border-radius: 5px;
 }
