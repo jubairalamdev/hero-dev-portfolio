@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  --primary-color: #FD6E0A;
+  --secondary-color: #181818;
+  --primary-border-radius: 5px;
+}
+
+.highlighted-btn {
+    background-color: #FD6E0A;
+    color: white!important;
+    padding: 15px 20px;
+    font-weight: 600;
+    border-radius: 5px;
+}
