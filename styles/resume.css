@@ -1,0 +1,72 @@
+.resume-section {
+    width: 100%;
+    margin-top: 130px;
+}
+
+.resume-wrapper {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.resume-header {
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.resume-header .resume-heading {
+    font-size: 35px;
+    color: var(--secondary-color);
+}
+
+.resume-section .resume-wrapper .progress-box {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 50px;
+}
+
+.progress-box .progress-info {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.096);
+    padding: 0 47px 30px 0;
+    text-align: start;
+}
+
+.progress-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.progress-column h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+    color: var(--gray-color);
+}
+
+.progress-info h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.progress-info span {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--para-color);
+}
+
+.progress-info p {
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 28px;
+    font-weight: 500;
+    color: var(--gray-color);
+}
+
+.last-p-info {
+    border: none!important;
+}
+
+.resume-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
