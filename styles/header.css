@@ -22,8 +22,8 @@
     justify-content: space-between;
 }
 
-.header-wrapper .header-navbar .logo-wrapper img {
-    width: 128px;
+.header-wrapper .header-navbar .logo-wrapper .main-logo {
+    width: 228px;
 }
 
 .header-wrapper .header-navbar .navbar-links {
